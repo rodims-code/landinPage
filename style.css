@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+body{
+    background-color: #f1f1f1;
+    margin: 10px 10px;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    justify-items: center;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+    align-items: center;
+/*     background-color: green; */
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+}
+.logo:hover{
+    color: rgb(26, 137, 227);
+}
+.left .time{
+    display: flex;
+    gap: 20px;
+}
+.time p{
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+/*     background-color: blue; */
+    margin-left: auto;
+}
+.btn-language{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(231, 228, 228);
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fr , .en{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.icone{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+.icone i{
+    cursor: pointer;
+}
+
+.icone , .profile{
+    display: flex;
+    align-items: center;
+
+}
+.profile{
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 20px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+}
